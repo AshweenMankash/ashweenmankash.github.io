@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-weight: lighter;
+  font-family: 'Verdana';
+}
+h1{
+  color:  #3e42b3;
+}
+header{
+  text-align: center;
+}
+nav{
+  background-color:  #3e42b3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+nav ul{
+  width: auto;
+  margin: auto;
+}
+
+header ul li{
+  color: white;
+  padding-right: 80px;
+  font-weight: 600;
+  list-style-type: none;
+  display: inline;
+}
+
+section{
+  padding-left: 80px;
+  padding-right: 80px;
+}
