@@ -1,4 +1,24 @@
+
+@font-face {
+    font-family: kilogram;
+    src: url(Kilogram-GvBO.otf);
+  }
+
+  @font-face{
+    font-family: BunyaBold;
+    src:url(./bunya-personal-font/BunyaPersonalBold-78Yw.ttf)
+  }
+
+  
+  @font-face{
+    font-family: BunyaLight;
+    src:url(./bunya-personal-font/BunyaPersonalRegular-dG3g.ttf)
+  }
+
+
+
 html,body{
+    align-items: center;
     margin: 0px;
     width:99.3%;
     height: 100%;
@@ -9,10 +29,10 @@ html,body{
 
     header{
         padding-top: 5%;
-        padding-left: 5%;
+        margin-bottom: -3%;
         align-content: center;
         color: rgb(181, 185, 235);
-        text-align: left;
+        text-align: center;
         font-family: BunyaBold;
         font-size:  10em;        
     }
@@ -26,9 +46,8 @@ html,body{
 } */
 
 section{
-    padding-left: 12%;
-    padding-right: 1%;
-    align-content: center;
+    width: 70% ;
+    margin: auto;
 }
 
 
@@ -67,18 +86,16 @@ footer{
     bottom: 0;
 }
 
-@font-face {
-    font-family: kilogram;
-    src: url(Kilogram-GvBO.otf);
-  }
+section p {
 
-  @font-face{
-    font-family: BunyaBold;
-    src:url(./bunya-personal-font/BunyaPersonalBold-78Yw.ttf)
-  }
+        align-self: center  ;
+        font-family: BunyaBold;
+        font-weight: 600;
+        font-size: 1.8em;
+}
 
-  
-  @font-face{
-    font-family: BunyaLight;
-    src:url(./bunya-personal-font/BunyaPersonalRegular-dG3g.ttf)
-  }
+
+.highlight{
+    color:rgba(255, 255, 0, 0.774);
+    font-weight: bold;
+}
