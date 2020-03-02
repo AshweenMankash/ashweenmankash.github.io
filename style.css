@@ -34,7 +34,7 @@ html,body{
         color: rgb(181, 185, 235);
         text-align: center;
         font-family: BunyaBold;
-        font-size:  10em;        
+        font-size:  8em;        
     }
 /* #backgroundImage{
     width: 70%;
@@ -46,10 +46,17 @@ html,body{
 } */
 
 section{
-    width: 70% ;
+    width: 55% ;
     margin: auto;
 }
 
+section p {
+    text-align: center;
+    align-self: right;
+    font-family: BunyaBold;
+    font-weight: 600;
+    font-size: 1.8em;
+}
 
 section ul li{
     margin: 5px;
@@ -86,14 +93,26 @@ footer{
     bottom: 0;
 }
 
-section p {
 
-        align-self: center  ;
-        font-family: BunyaBold;
-        font-weight: 600;
-        font-size: 1.8em;
+#Avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 50px;
 }
 
+.flexed{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
 
 .highlight{
     color:rgba(255, 255, 0, 0.774);
