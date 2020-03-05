@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        html, body{
+            width: 98.8%;
+            margin: 0px;
+            
+            padding: 10px;
+            align-content: center;
+        }
+        form{
+            margin: auto;
+            width: auto;
+        }
+        form label{
+            font-size: larger;
+        }
+
+        form input[type=text],input[type=email],input[type=tel]{
+            
+            align-content: center;  
+            padding: 5px;
+            box-sizing: border-box;
+            border-radius: 10px 10px 10px 10px;
+            border: 0.5px grey solid;
+        }
+
+        form input:focus{
+            box-sizing: border-box;
+            border-radius: 10px 10px 10px 10px;
+            border: 0.5px rgb(122, 214, 250) solid;
+        }
+
+        label{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" >
+        
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email">
+        
+        <label for="number">Phone Number</label>
+        <input type="tel" name="number" id="number">
+    </form>
+</body>
+</html>
