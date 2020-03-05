@@ -29,8 +29,7 @@ header ul li{
   font-weight: 600;
   padding: 1.5%;
   list-style-type: none;
-  display: inline;
-  
+  display: inline;  
 }
 
 header ul li:hover{
@@ -57,8 +56,58 @@ footer li{
 }
 
 
+#Events{
+  display: flex;
+}
+
 .SubSect{
   width: 100%;
   height: 200px;
   background-color: #0000002f;
 }
+
+
+
+.Event{
+  border-bottom: 0.5px grey solid;
+  border-right: 0.5px grey solid;
+  display: flex;
+  width: 33%;
+  height: 200px;  
+  margin: 2%;
+}
+
+.avatar{
+  flex: 4;
+  background-color: #000; 
+  background-image: url(https://lh3.googleusercontent.com/proxy/Q1rE2L_EavcAja95G0SthhaFGVJcCgM0JOzCbfLZpIJeRcSeqmbWT_i4lsqq4RogQtlE6BxBZw81dRifTOSpJdlTvN9-ozA77C2OrvI42yhM_LggaAQ);
+  background-position: center;
+}
+
+.avatar img{
+  
+}
+
+.aboutEvent{
+  flex:6;
+  padding: 2%;
+  display: flex;  
+  flex-direction: column;
+}
+
+.EventHeading{
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.Description{
+  padding: 2%;
+  text-overflow: clip;
+  font-size: 1.1em;
+
+}
+
+
+
+
+
