@@ -1,13 +1,13 @@
 
 @font-face{
   font-family: BunyaBold;
-  src:url(D:\\project\\csi\\ashweenmankash.github.io\\bunya-personal-font\\BunyaPersonalBold-78Yw.ttf)
+  src:url(./BunyaPersonalBold-78Yw.ttf)
 }
 
 
 @font-face{
   font-family: BunyaLight;
-  src:url(D:\\project\\csi\\ashweenmankash.github.io\\bunya-personal-font\\BunyaPersonalLight-mGoj.ttf)
+  src:url(./BunyaPersonalLight-mGoj.ttf)
 }
 
 html,body{
@@ -29,12 +29,13 @@ header{
   display: flex;
   flex-wrap: wrap;
   width: 90.0%;
-  padding:2%;
+  padding:0%;
+  margin: auto;
 }
 header h1{
   font-family: BunyaBold;
   font-weight: bolder;
-  font-size: 6vw;
+  font-size: 8vh;
   color:  #3e42b3e8;
   text-align: center;
   justify-content: center;
@@ -60,6 +61,7 @@ header div input{
   letter-spacing: 0.15em;
   /* margin-left: 4%; */
   border: none;
+  flex-grow: inherit;
   background-color: #3e42b3;
   color: #fff;
 }
@@ -76,33 +78,18 @@ header div input:active{
 }
 
 
-nav ul{
-  width: auto;
-  margin: auto;
-  display:flex;
-}
-
-header ul li{
-  flex: 1;
-  color: white;
-  font-weight: 600;
-  padding: 1.5%;
-  list-style-type: none;
-  display: inline;  
-}
-
-header ul li:hover{
-  background-color: #ffffff0f;  
-  cursor: pointer;
-}
 
 section{
   margin: auto;
+  margin-top: 1%;
   width: 90%;
   text-overflow: clip;
   height: auto;
 }
 
+section h2{
+  text-align: center;
+}
 footer{
   padding: 20px;
   color:#ffffffae;
@@ -117,7 +104,7 @@ footer li{
 
 #Events{
   margin: auto;
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -131,8 +118,9 @@ footer li{
 
 
 .Event{
-  border-bottom: 0.5px grey solid;
-  border-right: 0.5px grey solid;
+  border-bottom: 0.5px rgba(0, 0, 0, 0.422) solid;
+  border-right: 0.5px rgba(0, 0, 0, 0.422) solid;
+  flex-grow: inherit;
   display: flex;
   height: 200px;  
   margin: 2%;
@@ -148,7 +136,7 @@ footer li{
 
 .photos .photo img{
   width: 100%;
-  height: auto;
+  height: 40vh;
 }
 
 
