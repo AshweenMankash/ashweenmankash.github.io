@@ -80,8 +80,9 @@ footer li{
 .avatar{
   flex: 4;
   background-color: #000; 
-  background-image: url(https://lh3.googleusercontent.com/proxy/Q1rE2L_EavcAja95G0SthhaFGVJcCgM0JOzCbfLZpIJeRcSeqmbWT_i4lsqq4RogQtlE6BxBZw81dRifTOSpJdlTvN9-ozA77C2OrvI42yhM_LggaAQ);
-  background-position: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7HCO7BueXUImWfcyS9l8SMSFMKOhskNIxFJrxZbI2hQ_HlrpY);
+  background-position: fill;
+  background-repeat: no-repeat;
 }
 
 .avatar img{
