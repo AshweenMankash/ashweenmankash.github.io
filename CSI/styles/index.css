@@ -1,13 +1,13 @@
 
 @font-face{
   font-family: BunyaBold;
-  src:url(bunya-personal-font\BunyaPersonalBold-78Yw.ttf)
+  src:url(./bunya-personal-font\BunyaPersonalBold-78Yw.ttf)
 }
 
 
 @font-face{
   font-family: BunyaLight;
-  src:url(BunyaPersonalLight-mGoj.ttf)
+  src:url(./BunyaPersonalLight-mGoj.ttf)
 }
 
 html,body{
