@@ -29,12 +29,13 @@ header{
   display: flex;
   flex-wrap: wrap;
   width: 90.0%;
-  padding:2%;
+  padding:0%;
+  margin: auto;
 }
 header h1{
   font-family: BunyaBold;
   font-weight: bolder;
-  font-size: 6vw;
+  font-size: 8vh;
   color:  #3e42b3e8;
   text-align: center;
   justify-content: center;
@@ -57,17 +58,19 @@ header div input{
   padding-right: 8%;
 
   line-height: 1.5em;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.10em;
   /* margin-left: 4%; */
   border: none;
-  background-color: #3e42b3;
-  color: #fff;
+  flex-grow: inherit;
+  background-color: white;
+  color: #494FFF ;
 }
 
 header div input:hover{
   border: none;
   background-color: #3e42b3ce;
   cursor: pointer;
+  color: white;
 }
 
 header div input:active{
@@ -76,34 +79,28 @@ header div input:active{
 }
 
 
-nav ul{
-  width: auto;
-  margin: auto;
-  display:flex;
-}
-
-header ul li{
-  flex: 1;
-  color: white;
-  font-weight: 600;
-  padding: 1.5%;
-  list-style-type: none;
-  display: inline;  
-}
-
-header ul li:hover{
-  background-color: #ffffff0f;  
-  cursor: pointer;
-}
 
 section{
   margin: auto;
+  margin-top: 1%;
   width: 90%;
   text-overflow: clip;
-  height: auto;
+  height: 500px;
+}
+
+section h2{
+
+  color: #000;
+
+}
+
+section h2:nth-child(2n+1){
+  text-align: center;
+  color:black
 }
 
 footer{
+  height: auto;
   padding: 20px;
   color:#ffffffae;
   background-color: black;  
@@ -117,7 +114,7 @@ footer li{
 
 #Events{
   margin: auto;
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -131,8 +128,9 @@ footer li{
 
 
 .Event{
-  border-bottom: 0.5px grey solid;
-  border-right: 0.5px grey solid;
+  border-bottom: 0.5px rgba(0, 0, 0, 0.422) solid;
+  border-right: 0.5px rgba(0, 0, 0, 0.422) solid;
+  flex-grow: inherit;
   display: flex;
   height: 200px;  
   margin: 2%;
@@ -148,13 +146,9 @@ footer li{
 
 .photos .photo img{
   width: 100%;
-  height: auto;
+  height: 40vh;
 }
 
-
-.avatar img{
-  
-}
 
 .aboutEvent{
   flex:6;
