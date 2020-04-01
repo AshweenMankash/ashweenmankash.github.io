@@ -18,7 +18,6 @@ html,body{
 
 body{
   margin: 0;
-  padding: 0;
   color: black;
   font-weight: lighter;
   font-family: 'Verdana';
@@ -29,28 +28,26 @@ header{
   display: flex;
   flex-wrap: wrap;
   width: 90.0%;
-  padding:0%;
   margin: auto;
 }
-header h1{
-  font-family: BunyaBold;
+header h1{  
   font-weight: bolder;
   font-size: 8vh;
+  letter-spacing: -2px;
   color:  #3e42b3e8;
-  text-align: center;
+  text-align: start;
   justify-content: center;
   flex:10;
 }
 header div{
   display: flex;
   flex-direction: row;
-  justify-content: center;
   flex:2;
 }
 
 header div input{
-  font-family: BunyaBold;
-  font-size: 1.3em;
+  
+  font-size: 3vh;
   margin-top: auto;
   margin-bottom: auto;
   padding: 4%;
@@ -58,8 +55,7 @@ header div input{
   padding-right: 8%;
 
   line-height: 1.5em;
-  letter-spacing: 0.10em;
-  /* margin-left: 4%; */
+  font-weight: 500;
   border: none;
   flex-grow: inherit;
   background-color: white;
@@ -80,23 +76,29 @@ header div input:active{
 
 
 
-section{
-  margin: auto;
-  margin-top: 1%;
-  width: 90%;
+section{  
+  min-height: 400px;
   text-overflow: clip;
-  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+section div{
+  flex: 7 ;
+}
 section h2{
-
+  flex:1;
   color: #000;
-
+  font-size: 3em;
+  display: inline;
+  /* text-orientation: upright;
+  writing-mode: vertical-rl; */
 }
 
 section h2:nth-child(2n+1){
   text-align: center;
   color:black
+
 }
 
 footer{
@@ -112,9 +114,8 @@ footer li{
 }
 
 
-#Events{
-  margin: auto;
-  width: 90%;
+#Events{ 
+  background-color: #008bc9;
   display: flex;
   flex-wrap: wrap;
 }
@@ -128,25 +129,34 @@ footer li{
 
 
 .Event{
+  min-width: 200px;
+  max-width: 250px;
+  flex:1;
+  padding: 20px;
+  color: #fff;
+  background-color: white;
+  align-items: flex-start;
   border-bottom: 0.5px rgba(0, 0, 0, 0.422) solid;
   border-right: 0.5px rgba(0, 0, 0, 0.422) solid;
-  flex-grow: inherit;
   display: flex;
+  flex-direction: column;
   height: 200px;  
-  margin: 2%;
+  margin: 1%;
 }
 
 .avatar{
   flex: 4;
+  width: 100px;
+  height: 100px;
   background-color: #000; 
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7HCO7BueXUImWfcyS9l8SMSFMKOhskNIxFJrxZbI2hQ_HlrpY);
   background-position: fill;
+  border-radius: 50% ;
   background-repeat: no-repeat;
 }
 
 .photos .photo img{
   width: 100%;
-  height: 40vh;
 }
 
 
@@ -168,8 +178,3 @@ footer li{
   font-size: 1.1em;
 
 }
-
-
-
-
-
